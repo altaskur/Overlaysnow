@@ -1,0 +1,44 @@
+.snowBig,
+.snowSmall {
+    transition: left linear;
+    box-shadow: -4px -4px 203px 0px rgba(255, 255, 255, 0.71);
+
+}
+
+.snowBig {
+    animation: falling 10s infinite, fadeOut 3s 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    position: fixed;
+    top: -50px;
+}
+
+.snowSmall {
+    animation: falling 8s infinite, fadeOut 3s 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    position: fixed;
+    top: -50px;
+}
+
+
+
+@keyframes falling {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
