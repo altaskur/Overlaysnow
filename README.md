@@ -4,4 +4,4 @@ Una animación en CSS, simulando que "nieva" cayendo copos de nieve en formato S
 
 ## Versión live
 
-[Link](https://altaskur.github.io/Overlaysnow/)
+[Link](https://altaskur.github.io/Overlaysnow/src)
