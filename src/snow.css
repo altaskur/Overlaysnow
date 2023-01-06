@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(30, 30, 30);
+}
+
 .snowBig,
 .snowSmall {
     transition: left linear;
